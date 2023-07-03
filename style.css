@@ -1,0 +1,197 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cabeçalho{
+    padding-left: 20px;
+    text-align: center;
+    background-color: rgb(13, 136, 243);
+}
+
+#banner{
+    width: 100% ;
+}
+.principal{
+background: rgb(13, 136, 243);
+padding: 30px;
+}
+.principal:before{
+    content: "[ ";
+}
+.principal::after{
+    content: " ]";
+}
+.principal::first-letter{
+    font-size: 2.5em;
+    color: blue;
+}
+p:first-line{
+    font-style: italic;
+}
+.veiculos{
+    text-align: center;
+    background: #FFFFFF;
+    padding: 20px;
+}
+   
+.planosVeiculos {
+    text-align: center;
+}    
+
+body {
+    background: whitesmoke
+}
+
+
+p {
+    text-align: center;
+    background: whitesmoke
+}
+#promo{
+    font-size: 20px;
+    background: rgb(13, 136, 243);
+}
+
+i{
+    color: red;
+}
+.imagemVeiculos{
+    width: 50%;
+}
+.mapa {
+    text-align: center;
+	padding: 3em 30px;
+	background: linear-gradient(#CCCCCC, white);
+}
+
+/* DEFINIÇÕES PARA A PAGINA DE PLANOS */
+header {
+    background: #CCCCCC;
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-style: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.carros{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+
+}
+.carros li img {
+    height: 300px;
+}
+ .carros li {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+ .carros li:hover{
+    border-color: blue;
+    opacity: 0.5;
+ }
+ .carros li:active {
+    border-color: #088c19;
+ }
+ .carros li:hover h2{
+    font-size: 34px;
+ }
+ .carros h2 {
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .produto-descricao {
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+ }
+ .footer {
+    text-align: center;
+    background: url(img/white.png);
+    padding: 40px;
+ }
+ .copyright {
+    color:#000000;
+    font-size: 40px;
+    margin: 20px 0 0 0;
+ }
+ /* DEFINIÇÕES PARA PAGINA CONTATO */
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkblue;
+    transform: scale(1.2);
+}
